@@ -5,8 +5,8 @@ services:
     build:
       context: ./
       dockerfile: ./Dockerfile
-    image: Realtime-chat-app-react-ui:v1
-    container_name: Realtime-chat-app-react-ui
+    image: realtime-chat-app-react-ui:v1
+    container_name: realtime-chat-app-react-ui
     restart: always
     ports:
       - 3000:3000
