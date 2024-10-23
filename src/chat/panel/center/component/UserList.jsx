@@ -29,7 +29,7 @@ class UserList extends React.Component {
 
     /**
      * Select users and get the corresponding message
-     * @param {选择的用户} value 
+     * @param {Choice user} value 
      */
     chooseUser = (value) => {
         let chooseUser = {
