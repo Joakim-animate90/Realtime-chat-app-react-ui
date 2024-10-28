@@ -26,8 +26,8 @@ Here is a video showcasing its functionalities [https://www.loom.com/share/e29f6
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Joakim-animate90/go-chat.git
-   cd go-chat
+   git clone git@github.com:Joakim-animate90/Realtime-chat-app-react-ui.git
+   cd Realtime-chat-app-react-ui
    ```
 
 2. Install dependencies:
