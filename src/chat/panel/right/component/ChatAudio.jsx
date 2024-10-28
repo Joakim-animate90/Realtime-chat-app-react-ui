@@ -44,7 +44,7 @@ class ChatAudio extends React.Component {
                 console.log("start audio...")
             }, (_error) => {
                 this.hasAudioPermission = false;
-                message.error("录音权限获取失败！")
+                message.error("Recording permissions failed!")
             })
     }
 

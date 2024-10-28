@@ -512,17 +512,17 @@ class Panel extends React.Component {
     render() {
 
         return (
-            <>
-                <Row style={{ paddingTop: 35, borderBottom: '1px solid #f0f0f0', borderTop: '1px solid #f0f0f0' }}>
-                    <Col span={2} style={{ borderRight: '1px solid #f0f0f0', textAlign: 'center', borderTop: '1px solid #f0f0f0' }}>
+            <> 
+                <Row style={{ paddingTop: 35, borderBottom: '1px solid #52c41a', borderTop: '1px solid #52c41a' }}>
+                    <Col span={2} style={{ borderRight: '1px solid #52c41a', textAlign: 'center', borderTop: '1px solid #52c41a' }}>
                         <Left history={this.props.history} />
                     </Col>
 
-                    <Col span={4} style={{ borderRight: '1px solid #f0f0f0', borderTop: '1px solid #f0f0f0' }}>
+                    <Col span={4} style={{ borderRight: '1px solid #52c41a', borderTop: '1px solid #52c41a' }}>
                         <Center />
                     </Col>
 
-                    <Col offset={1} span={16} style={{ borderTop: '1px solid #f0f0f0' }}>
+                    <Col offset={1} span={16} style={{ borderTop: '1px solid #52c41a' }}>
                         <Right
                             history={this.props.history}
                             sendMessage={this.sendMessage}

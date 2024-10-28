@@ -36,7 +36,7 @@ class ChatFile extends React.Component {
 
     /**
      * Upload file
-     * @param {事件} e 
+     * @param {*} e
      * @returns 
      */
     uploadFile = (e) => {

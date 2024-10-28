@@ -119,7 +119,7 @@ class UserInfo extends React.Component {
                     <Button type='link' onClick={this.modifyAvatar}>Update avatar</Button>
                 </Menu.Item>
                 <Menu.Item key={3}>
-                    <Button type='link' onClick={this.loginout}>quit</Button>
+                    <Button type='link' onClick={this.loginout}>Log Out</Button>
                 </Menu.Item>
             </Menu>
         );

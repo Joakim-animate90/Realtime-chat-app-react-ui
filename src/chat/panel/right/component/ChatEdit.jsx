@@ -17,7 +17,7 @@ const Editor = ({ onChange, onSubmit, submitting, value, toUser }) => (
             <TextArea rows={4} onChange={onChange} value={value} id="messageArea" />
         </Form.Item>
         <Form.Item>
-            <Button htmlType="submit" loading={submitting} onClick={onSubmit} type="primary" disabled={toUser === ''}>
+            <Button htmlType="submit" loading={submitting} onClick={onSubmit} type="primary" disabled={toUser === ''} style={{ backgroundColor: 'green' }}>
                 Send
             </Button>
         </Form.Item>

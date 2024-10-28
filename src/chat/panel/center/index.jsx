@@ -7,7 +7,7 @@ export default class CenterIndex extends React.Component {
     render() {
 
         return (
-            <div style={{ marginTop: 10 }}>
+            <div style={{ marginTop: 10 , borderColor: '#52c41a'}}>
                 <UserSearch />
                 <UserList />
             </div>
